@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.10
 
 # Prevent Python from writing .pyc files and disable output buffering
 ENV PYTHONDONTWRITEBYTECODE=1
